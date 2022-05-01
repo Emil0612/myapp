@@ -1,27 +1,27 @@
 export const categories = [
   {
-    name: 'cars',
-    image: 'https://i.pinimg.com/750x/eb/47/44/eb4744eaa3b3ccd89749fa3470e2b0de.jpg',
+    name: 'fitness',
+    image: 'https://www.markham.ca/wps/wcm/connect/markham/a8337771-9ff7-45a6-92d2-95660fe896f0/Recreation+fitness+Icon.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_2QD4H901OGV160QC8BLCRJ1001-a8337771-9ff7-45a6-92d2-95660fe896f0-nXFaeni',
   },
   {
-    name: 'fitness',
-    image: 'https://i.pinimg.com/236x/25/14/29/251429345940a47490cc3d47dfe0a8eb.jpg',
+    name: 'cars',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpoarsVitTOLbdIr5VJEGzXWKvlBAMvbjuxjX8CyzAbyAKaVjD7U-p8IJqEpF9tHstj4&usqp=CAU',
   },
   {
     name: 'wallpaper',
-    image: 'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
+    image: 'https://wallpaperforu.com/wp-content/uploads/2020/07/neon-wallpaper-20070214114248800x1280.jpg',
   },
   {
-    name: 'websites',
-    image: 'https://i.pinimg.com/750x/66/b1/29/66b1296d36598122e6a4c5452b5a7149.jpg',
+    name: 'gaming',
+    image: 'https://www.teknikmagasinet.se/storage/ma/a8d07aced31b415f84a5d651ca67967a/869811859b094e2aad7116431ca250b1/jpg/56F298CBEBA3ECBD15C314CA12FA06F1DF5EFD3B/112030_4.jpg',
   },
   {
     name: 'photo',
-    image: 'https://i.pinimg.com/236x/72/8c/b4/728cb43f48ca762a75da645c121e5c57.jpg',
+    image: 'https://media.istockphoto.com/photos/trees-forming-a-heart-picture-id537373196?k=20&m=537373196&s=612x612&w=0&h=Y6zpQNFrhLp9lusVP5xbJ8s6H9i0hOZlQwhhPxHlGXU=',
   },
   {
     name: 'food',
-    image: 'https://i.pinimg.com/236x/7d/ef/15/7def15ac734837346dac01fad598fc87.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUuSKIbKRYBPgbDkM5tNXpiDUAZ86gJiPSw&usqp=CAU',
   },
   {
     name: 'nature',
@@ -35,14 +35,14 @@ export const categories = [
     image: 'https://i.pinimg.com/236x/fa/95/98/fa95986f2c408098531ca7cc78aee3a4.jpg',
   },
   {
-    name: 'quotes',
-    image: 'https://i.pinimg.com/236x/46/7c/17/467c17277badb00b638f8ec4da89a358.jpg',
+    name: 'movies',
+    image: 'http://news.doddleme.com/wp-content/uploads/2012/09/FOX-LOGO-JPEG.jpg',
   }, {
     name: 'cats',
-    image: 'https://i.pinimg.com/236x/6c/3c/52/6c3c529e8dadc7cffc4fddedd4caabe1.jpg',
+    image: 'https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg',
   }, {
     name: 'dogs',
-    image: 'https://i.pinimg.com/236x/1b/c8/30/1bc83077e363db1a394bf6a64b071e9f.jpg',
+    image: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg',
   },
   {
     name: 'others',

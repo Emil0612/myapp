@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { RiHomeFill } from 'react-icons/ri';
 import { IoIosArrowForward } from 'react-icons/io';
-import logo from '../assets/logo.png';
+import logo from '../assets/nuclearmedia.png';
 import { categories } from '../utils/data';
 
 const isNotActiveStyle = 'flex items-center px-5 gap-3 text-gray-500 hover:text-black transition-all duration-200 ease-in-out capitalize';
@@ -18,7 +18,7 @@ const Sidebar = ({ closeToggle, user }) => {
       <div className="flex flex-col">
         <Link
           to="/"
-          className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"
+          className="flex px-1 gap-2 my-6 pt-1 w-190 items-center"
           onClick={handleCloseSidebar}
         >
           <img src={logo} alt="logo" className="w-full" />
@@ -33,7 +33,7 @@ const Sidebar = ({ closeToggle, user }) => {
             <RiHomeFill />
             Home
           </NavLink>
-          <h3 className="mt-2 px-5 text-base 2xl:text-xl">Discover cateogries</h3>
+          <h3 className="mt-2 px-5 text-base 2xl:text-xl">Discover categories</h3>
           {categories.slice(0, categories.length - 1).map((category) => (
             <NavLink
               to={`/category/${category.name}`}
